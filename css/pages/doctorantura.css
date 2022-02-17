@@ -1,0 +1,43 @@
+tml {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+a {
+    color: rgb(70, 65, 65);
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover {
+    color:#2aacc8;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+ .header {
+     background-image: url(../../images/headere.jpg);
+     background-size: cover;
+     height: 180px;
+ }
+ .main {
+    background-color: #b4ebb1;
+    padding-top: 30px;
+     }
+
+     

@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+a {
+    color: rgb(70, 65, 65);
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover {
+    color:#2aacc8;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+ .header {
+     background-image: url(../../images/headere.jpg);
+     background-size: cover;
+     height: 180px;
+ }
+ .main {
+    background-color: #b4ebb1;
+    padding-top: 30px;
+     }
+.title-block {
+         position: relative;
+         
+         
+        
+     }
+.foto img {
+        box-shadow: 10px 10px 20px gray;
+    border-radius: 3px;
+    width: 370px;
+    height: 420px;
+    
+    }
+.title-block:hover .title {
+            left:  400px;
+            bottom: 20px;
+            opacity: 1;
+
+}
+    h2 {
+        font-size: 22px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 19px;
+        text-align: center;
+        margin: 0;
+        line-height: 26px;
+    }
+    li {
+        text-align: center;
+    }
+    .title {
+        opacity: 0;
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #2b3335;
+        border-radius: 5px;
+        line-height: 26px;
+        position: absolute;
+        width: 400px;
+        height: 300px;
+       top: 70px;
+        left: 0px;
+        padding: 20px;
+      background-color: beige;
+        transition:  all 4s, left 4s, opacity 1s;
+        
+       
+        
+    
+    }
+    .news p {
+        text-align: start;
+        padding-bottom: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    .news {
+        padding-top: 40px;
+        height: 300px;
+    }
